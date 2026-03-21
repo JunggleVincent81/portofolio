@@ -19,7 +19,7 @@ const projects = [
     url: "https://portohotel.tegarbs.site",
     description:
       "A modern hotel website interface designed to showcase hotel services and help visitors explore rooms, facilities, and booking information through a clean and responsive experience.",
-    image: "https://projects/hotel.png",
+    image: "/projects/hotel.png",
     stack: ["WordPress", "Custom Theme", "Responsive UI"],
     type: "Business Website",
     role: "Web Developer",
@@ -63,6 +63,24 @@ const projects = [
       "Prototype architecture for educational platform use cases",
     ],
   },
+   {
+  id: 4,
+  title: "Aloysia Portfolio | Junior Fullstack Developer",
+  shortTitle: "Portfolio Website",
+  url: "https://aloysiabernadeth.vercel.app",
+  description:
+    "A modern personal portfolio website showcasing projects, skills, and development journey with a focus on clean UI, responsive design, and smooth user interaction.",
+  image: "/projects/portofolio/aloysia.png",
+  stack: ["Next.js", "Tailwind CSS", "Framer Motion"],
+  type: "Web Portfolio",
+  role: "Fullstack Web Developer",
+  highlights: [
+    "Responsive and modern UI design across all devices",
+    "Smooth animations and interactive user experience",
+    "Structured project showcase with clean layout system",
+    "Custom-built components with reusable architecture",
+  ],
+}
 ]
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
