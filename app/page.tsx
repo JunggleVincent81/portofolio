@@ -19,7 +19,7 @@ const projects = [
     url: "https://portohotel.tegarbs.site",
     description:
       "A modern hotel website interface designed to showcase hotel services and help visitors explore rooms, facilities, and booking information through a clean and responsive experience.",
-    image: "/projects/hotel.png",
+    image: "/projects/hotel.PNG",
     stack: ["WordPress", "Custom Theme", "Responsive UI"],
     type: "Business Website",
     role: "Web Developer",
